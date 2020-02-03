@@ -1,0 +1,794 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main_big_conteiner {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    /* height: 400px; */
+    /* background-image: url(../photos/top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    align-items: center; */
+
+}
+
+.header_page_contacts {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background-image: url(../images/top2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    align-items: center;
+    
+}
+
+.header_page_tours {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background-image: url(../images/top1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    align-items: center;
+}
+
+.header_section2_header {
+    height: 120px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 300px;
+}
+
+.header_section3_header {
+    height: 80px;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 440px;
+}
+
+.header_section2, .header_section3 {
+    height: 120px;
+}
+
+.header_section1_header {
+    position: absolute;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+}
+
+.header_section1 {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+}
+
+.header_section1_logo {
+    display: flex;
+    margin-left: 150px;
+}
+
+.header_logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(../icons/spasskaya-tower.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header_logo_text {
+    flex: 1;
+    color: rgb(252, 218, 59);
+    font-style: italic;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.header_menu {
+    list-style: none;
+    margin-left: 180px;
+}
+
+.header_menu_li {
+    color: white;
+    font-size: 14px;
+    margin-right: 25px;
+    float: left;
+}
+
+.header_caption1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.header_caption2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header_button {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    border-radius: 6px;
+    background-color: rgb(85, 159, 208);
+    padding: 5px 12px;
+    width: 120px;
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gallery img {
+    flex: 1;
+    height: 180px;
+}
+
+.section1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px bold;
+    color: rgb(87, 158, 204); 
+}
+
+.section2 {
+    text-align: center;
+}
+
+.main_content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.main_content_photo {
+    height: 350px;
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.photo_1 {
+    background-image: url(../photos/group.jpg);
+}
+
+.page_tours_photo_1 {
+    background-image: url(../images/3_01.jpg);
+    background-size: cover;
+}
+
+.page_tours_photo_2 {
+    background-image: url(../images/2_02.jpg);
+    background-size: cover;
+}
+
+.page_tours_photo_3 {
+    background-image: url(../images/3_03.jpg);
+    background-size: cover;
+}
+
+.page_tours_photo_4 {
+    background-image: url(../images/2_04.jpg);
+    background-size: cover;
+}
+
+.main_content_block {
+    height: 350px;
+    width: 50%;
+    flex: 1;
+    background-color: rgb(255, 195, 75);
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.main_content_header {
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 10px 10px 10px;
+    margin-left: 30px;
+}
+
+.main_content_block_page_tours {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px 20px 5px 20px;
+}
+
+.main_content_text {
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 35px;
+}
+
+.main_content_text_page_tours {
+    color: white;
+    font-size: 12px;
+    padding: 5px 20px 10px 20px;
+}
+
+.main_content_cost_page_tours {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px 10px 20px;
+}
+
+.main_content_button {
+    display: inline-block;
+    border: 1px solid rgb(249, 176, 48);
+    background-color: rgb(252, 172, 57);
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 20px;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.main_content_button_page_tours {
+    display: inline-block;
+    border: 1px solid rgb(249, 176, 48);
+    background-color: rgb(252, 172, 57);
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 20px;
+    
+}
+
+.button_page_tours_right {
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 350px;
+}
+
+.button_page_tours_left {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+
+.line {
+    height: 0;
+    width: 160px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(255, 195, 75);
+}
+
+.main_menu {
+    width: 790px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.menu_contacts_page_contacts {
+    width: 950px;
+    margin: auto;
+}
+
+.menu_contacts_page_contacts p {
+    padding: 10px;
+}
+
+.main_menu_block {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start
+}
+
+.icon1 {
+    height: 40px;
+    width: 40px;
+    background-image: url(../icons/map.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon2 {
+    height: 40px;
+    width: 40px;
+    background-image: url(../icons/souvenir.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon3 {
+    height: 40px;
+    width: 40px;
+    background-image: url(../icons/compass.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon4 {
+    height: 40px;
+    width: 40px;
+    background-image: url(../icons/picture.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon5 {
+    height: 40px;
+    width: 40px;
+    background-image: url(../icons/discussion.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon6 {
+    height: 40px;
+    width: 40px;
+    background-image: url(../icons/sun.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main_menu_section1 {
+    flex: 1;
+    padding: 3px;
+}
+.main_menu_section2 {
+    font-size: 10px;
+    color: grey;
+    width: 350px;
+    padding: 5px;
+}
+
+.main_menu_section2_font {
+    text-transform: uppercase;
+}
+
+.empty_container {
+    height: 50px;
+}
+
+.message {
+    height: 330px;
+    background-color: rgb(238, 240, 239);
+}
+
+.message_page2 {
+    height: 330px;
+}
+
+.message_element_heading {
+    padding-top: 25px;
+}
+
+.message_block_flex {
+    display: flex;
+}
+
+.message_block {
+    flex: 1;
+    margin-top: 25px;
+}
+
+.message_element {
+    width: 360px;
+    font-size: 20px;
+    border: 2px solid rgb(255, 195, 75);
+    padding: 3px;
+    padding-left: 8px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.message_element_textarea {
+    font-size: 20px;
+    width: 360px;
+    height: 100px;
+    border: 2px solid rgb(255, 195, 75);
+    margin-right: 100px;
+    resize: none;
+    margin-top: 5px;
+}
+
+.message_element_textarea_page_contacts {
+    font-size: 20px;
+    width: 362px;
+    height: 100px;
+    border: 2px solid rgb(255, 195, 75);
+    margin-left: 100px;
+    resize: none;
+    margin-top: 5px;
+    padding-left: 8px;
+}
+
+.group_contacts {
+    height: 260px;
+    background-color: rgb(21, 55, 65);
+    display: flex;
+}
+
+.invitation {
+    flex: 1;
+    margin-left: 90px;
+    margin-right: 50px;
+}
+
+.invitation_flexed {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.invitation_img {
+    width: 25px;
+    height: 25px;
+    background-image: url(../icons/spasskaya-tower.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.invitation_header {
+    padding-left: 8px;
+    color: rgb(252, 218, 59);
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.invitation_text {
+    color: rgb(184, 204, 215);
+    font-size: 12px;
+}
+
+.contacts {
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contacts_header {
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contacts_fixed {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cotacts_icon1 {
+    width: 15px;
+    height: 15px;
+    background-image: url(../icons/placeholder.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page_contacts_icon1 {
+    width: 35px;
+    height: 35px;
+    background-image: url(../icons/placeholder.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.cotacts_icon2 {
+    width: 15px;
+    height: 15px;
+    background-image: url(../icons/mail.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page_contacts_icon2 {
+    width: 35px;
+    height: 35px;
+    background-image: url(../icons/mail.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page_contacts_icon3 {
+    width: 35px;
+    height: 35px;
+    background-image: url(../icons/telephone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cotacts_icon3 {
+    width: 15px;
+    height: 15px;
+    background-image: url(../icons/telephone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cotacts_text {
+    color: white;
+    font-size: 12px;
+    width: 170px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.page_contacts_text {
+    padding-left: 50px;
+    width: 400px;
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+
+.LastNews {
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 130px;
+}
+
+.LastNews_header {
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.LastNews_text {
+    color: rgb(184, 204, 215);
+    font-size: 12px;
+}
+
+.LastNews_text_color {
+    font-size: 12px;
+    color: rgb(87, 158, 204);
+    padding-bottom: 7px;
+    padding-top: 3px;
+}
+
+.message_element_heading {
+    margin-top: 20px;
+}
+
+.message_block_button {
+    background-color: rgb(21, 55, 65);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgb(255, 195, 75);
+    margin-left: 100px;
+    margin-top: 5px;
+    width: 370px;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.message_block_button_page_contacts {
+    background-color: rgb(21, 55, 65);
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 5px;
+    width: 372px;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px; 
+}
+
+.footer {
+    height: 60px;
+    background-color: rgb(9, 28, 35);
+    display: flex;
+}
+
+.footer_text {
+    flex: 1;
+    font-size: 12px;
+    color: rgb(184, 204, 215);
+    margin: auto;
+    text-align: center;
+}
+
+.footer_text_icon {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}
+
+.footer_icon1 {
+    width: 20px;
+    height: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-image: url(../social/vk.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer_icon2 {
+    width: 20px;
+    height: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-image: url(../social/facebook.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer_icon3 {
+    width: 20px;
+    height: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-image: url(../social/instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.reviews {
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contacts_page_contacts {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contacts_page_contacts_block {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviews_block_section1_text {
+    height: 85px;
+    width: 330px;
+    background-color: rgb(247, 243, 242);
+    font-size: 12px;
+    padding: 15px;
+    font-style: italic;
+    color: rgb(132, 128, 127);
+}
+
+.reviews_block_section1_margin1 {
+    margin-right: 35px;
+}
+
+.reviews_block_section1_margin2 {
+    margin-left: 35px;
+}
+
+.reviews_block_section2 {
+    color: rgb(75, 75, 75);
+    line-height: 40px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.reviews_block_section1_flex {
+    display: flex;
+    flex-direction: row;
+    padding-top: 12px;
+}
+
+.reviews_photo1 {
+    height: 40px;
+    width: 40px;
+    background-image: url(../testimonials/test2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contacts_page_contacts_photo1 {
+    background-image: url(../images/man.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 135px;
+    width: 190px;
+}
+
+.contacts_page_contacts_photo2 {
+    background-image: url(../images/woman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 135px;
+    width: 190px;
+}
+
+.contacts_page_contacts_block_text {
+    height: 135px;
+    width: 300px;
+    background-color: rgb(255, 195, 75);
+}
+
+.reviews_photo2 {
+    height: 40px;
+    width: 40px;
+    background-image: url(../testimonials/test1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.map {
+    height: 400px;
+    background-image: url(../images/contacts.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    align-items: center;
+    border: 1px solid rgb(255, 195, 75);
+}
+
+.button_cursor {
+    cursor: pointer;
+}
+
+.margin_left {
+    margin-left: 10px;
+}
+
+.margin_right {
+    margin-right: 10px;
+}
+
+.contacts_page_contacts_text {
+    padding: 5px 16px 3px 16px;
+}
+
+.contacts_page_contacts_text_h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contacts_page_contacts_text_h3 {
+    color: rgb(3, 108, 249);
+}
+
+.page_contacts_contacts_fixed {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
